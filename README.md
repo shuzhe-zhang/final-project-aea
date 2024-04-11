@@ -1,8 +1,8 @@
-# Final Project for GLBL 6060 Applied Python for Global Affairs
+## Final Project for GLBL 6060 Applied Python for Global Affairs
 
-## Shuzhe(Rosemary) Zhang and Yirui Zhao
+### Shuzhe(Rosemary) Zhang and Yirui Zhao
 
-### Folder Description
+#### Folder Description
 
 The **Raw** folder contains the raw information we web-scrape from the AEA website.
 
@@ -19,7 +19,7 @@ Each code has the functionality as follows:
     -   AEJ: Microeconomics from Volume 1 to the present: <https://www.aeaweb.org/journals/mic>
 -   **1-Dashboard.ipynb**: In this script, we build up our dashboard.
 
-### Installation Requirements
+#### Installation Requirements
 
 To run the script, install the following Python packages:
 
