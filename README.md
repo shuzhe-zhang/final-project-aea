@@ -10,14 +10,35 @@ The **Derived** folder contains the intermediate CSV files generated after the d
 
 Each code has the functionality as follows:
 
-- **0 AEA-Paper-Database.ipynb**: In this script, we utilize web scraping techniques to gather information such as authors, abstracts, JEL codes, issues, and article titles from the AER website at https://www.aeaweb.org/journals. We include the following journals:
+- **0-Database.ipynb**: In this script, we utilize web scraping techniques to gather information such as authors, abstracts, JEL codes, issues, and article titles from the AER website at https://www.aeaweb.org/journals. We include the following journals:
   - American Economic Review (AER) from Volume 89 to the present: https://www.aeaweb.org/journals/aer
   - AER: Insights from Volume 1 to the present: https://www.aeaweb.org/journals/aeri
   - AEJ: Applied Economics from Volume 1 to the present: https://www.aeaweb.org/journals/app
   - AEJ: Economic Policy from Volume 1 to the present: https://www.aeaweb.org/journals/pol
   - AEJ: Macroeconomics from Volume 1 to the present: https://www.aeaweb.org/journals/mac
   - AEJ: Microeconomics from Volume 1 to the present: https://www.aeaweb.org/journals/mic
+  
+- **1-Dashboard.ipynb**: In this script, we utilize web scraping techniques to gather information such as authors, abstracts, JEL codes, issues, and article titles from the AER website at https://www.aeaweb.org/journals. We include the following journals:
+  - American Economic Review (AER) from Volume 89 to the present: https://www.aeaweb.org/journals/aer
+  - AER: Insights from Volume 1 to the present: https://www.aeaweb.org/journals/aeri
+  - AEJ: Applied Economics from Volume 1 to the present: https://www.aeaweb.org/journals/app
+  - AEJ: Economic Policy from Volume 1 to the present: https://www.aeaweb.org/journals/pol
+  - AEJ: Macroeconomics from Volume 1 to the present: https://www.aeaweb.org/journals/mac
+  - AEJ: Microeconomics from Volume 1 to the present: https://www.aeaweb.org/journals/mic
+  
+Installation Requirements:
 
-**Note**: To run this script, you will need to install the packages selenium and pandas. Additionally, ensure you have the appropriate WebDriver installed.
+To run the script, install the following Python packages:
 
-Last Update: 2024-03-15
+```bash
+pip install selenium pandas numpy requests beautifulsoup4 panel hvplot spacy sentence-transformers bertopic scikit-learn openai
+
+Additionally, you\'ll need to download and set up the appropriate WebDriver for your browser for Selenium to work. After installing SpaCy, download a language model with:
+
+```bash
+python -m spacy download en_core_web_sm
+
+Ensure you have the necessary WebDriver installed for Selenium operations.
+Ensure you have your ChatGPT API key stored on your computer.
+
+Last Update: 2024-4-11
