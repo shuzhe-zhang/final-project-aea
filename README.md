@@ -6,7 +6,7 @@
 
 The **Raw** folder contains the raw information we web-scrape from the AEA website.
 
-The **Derived** folder contains the intermediate CSV files generated after the data cleaning process.
+The **Derived** folder contains the intermediate CSV files, word embeddings, and topic models generated after the data cleaning process. We save our topic modeling but do not include it on GitHub due to size constraints. You can download our version from <https://drive.google.com/file/d/15pH-Wa0zJH4odr3dh3giWvKW6ENJaE26/view?usp=drive_link> and save it in this folder. It is also fine to obtain it by running the code, although this may take some time.
 
 Each code has the functionality as follows:
 
@@ -24,7 +24,7 @@ Each code has the functionality as follows:
 To run the script, install the following Python packages:
 
 ``` bash
-pip install selenium pandas numpy requests beautifulsoup4 panel hvplot spacy sentence-transformers bertopic scikit-learn openai
+pip install numpy pandas pycountry requests beautifulsoup4 networkx matplotlib panel hvplot spacy scikit-learn sentence-transformers bertopic umap-learn openai selenium
 ```
 
 Additionally, you'll need to download and set up the appropriate WebDriver for your browser for Selenium to work. After installing SpaCy, download a language model with:
@@ -35,4 +35,4 @@ python -m spacy download en_core_web_sm
 
 Ensure you have the necessary WebDriver installed for Selenium operations. Ensure you have your ChatGPT API key stored on your computer.
 
-Last Update: 2024-4-11
+Last Update: 2024-4-23
