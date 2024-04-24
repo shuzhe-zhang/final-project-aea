@@ -6,7 +6,7 @@
 
 The **Raw** folder contains the raw information we web-scrape from the AEA website.
 
-The **Derived** folder contains the intermediate CSV files, word embeddings, and topic models generated after the data cleaning process. We save our topic modeling but do not include it on GitHub due to size constraints. You can download our version from <https://drive.google.com/file/d/15pH-Wa0zJH4odr3dh3giWvKW6ENJaE26/view?usp=drive_link> and save it in this folder. It is also fine to obtain it by running the code, although this may take some time.
+The **Derived** folder contains the intermediate CSV files, word embeddings, and topic models generated after the data cleaning process. We save our topic modeling but do not include it on GitHub due to size constraints. You can download it from <https://drive.google.com/file/d/15pH-Wa0zJH4odr3dh3giWvKW6ENJaE26/view?usp=drive_link> and save it in this folder. It is also fine to obtain it by running the code, although this may take some time.
 
 Each code has the functionality as follows:
 
